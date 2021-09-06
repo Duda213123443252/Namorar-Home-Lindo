@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="button.css">
+    <style>
+        body{
+            background-size: 200px;
+            background-image:url('https://cdn.discordapp.com/attachments/851636284303867925/856347342151876618/f7816e39-d24f-4bb9-aed4-3f0569c9ec5f.jpg');
+        }
+        .inputs{
+            display: flex;
+            flex-direction: column;
+            padding:20px;
+        }
+        input{
+            width: 95vw;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="shortcut icon" href="https://favicon-generator.org/favicon-generator/htdocs/favicons/2020-10-19/eb9adeff0091bcff9069a25cdecf5ea7.ico.png" />
+</head>
+<body>
+    <audio id="play" src="https://cdn.discordapp.com/attachments/849702279519010888/856357949660594196/AAAAAAAAAAAAH_INVIANO_FORMULARIUO.mp3"></audio>
+    <h1 style="color: red;">Digite O Formulario Para Namorar Com Este Belo Homem:</h1>
+    <inputs class="inputs">
+        <input placeholder="Nome Completo"id="nome"type="text">
+        <input placeholder="Idade"id="idade"type="text">
+        <input placeholder="Genero"id="genero"type="text">
+        <input placeholder="Fetiches(SEXUAIS!!!!)"id="fetiches"type="text">
+        <input placeholder="Defeitos"id="defeitos"type="text">
+        <input placeholder="Qualidades"id="qualidades"type="text">
+        <input placeholder="Tamanho Do Penis/Clitoris"id="tamanhoDoPenis"type="text">
+        <button class="btn" onclick="final()">Enviar Formulario</button>
+    </inputs>
+    <script>
+        function final(){
+            document.getElementById('play').play();
+            var nome = document.getElementById('nome').value
+            var idade = document.getElementById('idade').value
+            var genero = document.getElementById('genero').value
+            var fetiches = document.getElementById('fetiches').value
+            var defeitos = document.getElementById('defeitos').value
+            var qualidades = document.getElementById('qualidades').value
+            var tamanhoDoPenis = document.getElementById('tamanhoDoPenis').value
+            if(idade < 18)
+            {
+                alert("VC EH DE MENOR,NAO PODE ECA ECA")
+            }
+            else
+            {
+                let url = "https://wa.me/41998153977/?text=Ola,Segue Formulario Do Site: Nome = "+nome+" Idade = "+idade+" Genero = "+genero+" Fetiches = "+fetiches+" Defeitos = "+defeitos+" Qualidades = "+qualidades+" Tamanho Do Penis = "+tamanhoDoPenis
+                window.open(url, '_blank').focus();
+            }
+        }
+    </script>
+</body>
+</html>

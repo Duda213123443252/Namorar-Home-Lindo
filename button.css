@@ -1,0 +1,39 @@
+.btn {
+    padding: 7px;
+    font-size: 16px;
+    border-width: 20px;
+    border-radius: 0px;
+    border-style: groove;
+    background-color: #ff0000;
+    border-color: #00ff33;
+    color: #0015ff;
+    box-shadow: inset 2px 0px 30px 0px rgb(255 207 207 / 97%);
+    font-weight: bold;
+    font-style: none;
+    font-family: cursive;
+}
+  input
+  {
+    padding: 7px;
+    font-size: 16px;
+    border-width: 20px;
+    border-radius: 0px;
+    border-style: groove;
+    background-color: #ff0000;
+    border-color: #00ff33;
+    color: #0015ff;
+    box-shadow: inset 2px 0px 30px 0px rgb(255 207 207 / 97%);
+    font-weight: bold;
+    font-style: none;
+    font-family: cursive;
+  }
+  h1:hover{font-family: "Comic Sans MS", "Comic Sans", cursive;}
+  *:hover{border-radius: 100%;}
+  * {transition:2s;cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;}
+  ::selection {
+    background-size: 50vh;
+    color: #00ff33;
+    background-color:#ff0000;
+    background-image: url(https://media.discordapp.net/attachments/849702279519010888/856362452794474546/812102-vermelho-textura-de-melancia-foto.png?width=705&height=498);
+  }
+  
